@@ -23,13 +23,13 @@ A production-style streaming data pipeline that ingests real-time e-commerce ord
 
 ### Pipeline Overview
 
-![Pipeline Architecture](docs/diagrams/architecture.png)
+![Pipeline Architecture](docs/diagrams/architecture.svg)
 
 > Diagram source: [`docs/diagrams/architecture.drawio`](docs/diagrams/architecture.drawio) · Edit with [draw.io](https://app.diagrams.net)
 
 ### Medallion Data Layers
 
-![Medallion Architecture](docs/diagrams/medallion.png)
+![Medallion Architecture](docs/diagrams/medallion.svg)
 
 > Diagram source: [`docs/diagrams/medallion.drawio`](docs/diagrams/medallion.drawio) · Edit with [draw.io](https://app.diagrams.net)
 
