@@ -151,7 +151,6 @@ spark-kafka/
 ### 1. Clone and install dependencies
 ```bash
 git clone https://github.com/MahtabSh/spark-kafka-streaming.git
-cd spark-kafka-streaming
 pip install -r requirements.txt
 ```
 
@@ -224,20 +223,5 @@ docker-compose down          # stop Kafka
 rm -rf delta/                # optional: wipe stored data
 ```
 
----
 
-## Troubleshooting
 
-| Error | Cause | Fix |
-|-------|-------|-----|
-| `JAVA_GATEWAY_EXITED` | Java not found | `brew install openjdk@11` + set `JAVA_HOME` |
-| `UnknownTopicOrPartitionException` | Topic doesn't exist yet | `docker-compose down -v && docker-compose up -d` |
-| `DELTA_UNSUPPORTED_OUTPUT_MODE` | Delta doesn't support `update` mode | Use `outputMode("append")` with watermark |
-| `NoBrokersAvailable` | Kafka not ready | Wait for `docker-compose ps` to show `healthy` |
-| `NodeExistsException` in Zookeeper | Stale container state | `docker-compose down -v && docker-compose up -d` |
-
----
-
-## License
-
-MIT
