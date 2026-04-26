@@ -150,8 +150,8 @@ spark-kafka/
 
 ### 1. Clone and install dependencies
 ```bash
-git clone https://github.com/<your-username>/spark-kafka.git
-cd spark-kafka
+git clone https://github.com/MahtabSh/spark-kafka-streaming.git
+cd spark-kafka-streaming
 pip install -r requirements.txt
 ```
 
