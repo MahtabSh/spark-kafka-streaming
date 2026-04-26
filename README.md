@@ -238,17 +238,6 @@ rm -rf delta/                # optional: wipe stored data
 
 ---
 
-## Phase 2 — Databricks (coming soon)
-
-The same pipeline rebuilt on the cloud:
-
-- **Confluent Cloud** — hosted Kafka (free tier)
-- **Databricks Auto Loader** — incremental file ingestion from cloud storage
-- **Delta Live Tables** — declarative pipeline with data quality expectations
-- **Unity Catalog** — governance, lineage, and access control
-
----
-
 ## License
 
 MIT
